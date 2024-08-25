@@ -7,7 +7,6 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Setup and Installation](#setup-and-installation)
 - [License](#license)
 
 ## Overview
@@ -28,46 +27,6 @@ Zen Recovery is an e-commerce platform that offers a seamless shopping experienc
 - **Database**: PostgreSQL (deployed on Heroku)
 - **Payment Processing**: Stripe API
 - **Email Service**: JavaMailSender
-
-## Setup and Installation
-
-### Prerequisites
-
-- **Java 21** or later
-- **Node.js** (for React)
-- **PostgreSQL** database
-
-### Backend
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/zen-recovery.git
-    cd zen-recovery
-    ```
-
-2. Set up the PostgreSQL database and update the `application.properties` file with your database credentials.
-
-3. Run the Spring Boot application:
-    ```bash
-    ./mvnw spring-boot:run
-    ```
-
-### Frontend
-
-1. Navigate to the frontend directory:
-    ```bash
-    cd frontend
-    ```
-
-2. Install dependencies:
-    ```bash
-    npm install
-    ```
-
-3. Start the development server:
-    ```bash
-    npm start
-    ```
 
   
 ## License
