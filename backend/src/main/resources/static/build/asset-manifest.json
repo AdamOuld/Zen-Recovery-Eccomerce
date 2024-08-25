@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d21be96d.css",
+    "main.js": "/static/js/main.5bc25030.js",
+    "static/js/453.d855a71b.chunk.js": "/static/js/453.d855a71b.chunk.js",
+    "static/media/home-first-img.jpg": "/static/media/home-first-img.a9520467224ff05c4cd9.jpg",
+    "static/media/zentrans.png": "/static/media/zentrans.e82aeb86465e3f2ead17.png",
+    "index.html": "/index.html",
+    "main.d21be96d.css.map": "/static/css/main.d21be96d.css.map",
+    "main.5bc25030.js.map": "/static/js/main.5bc25030.js.map",
+    "453.d855a71b.chunk.js.map": "/static/js/453.d855a71b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d21be96d.css",
+    "static/js/main.5bc25030.js"
+  ]
+}

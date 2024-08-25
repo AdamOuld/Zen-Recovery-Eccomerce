@@ -1,0 +1,146 @@
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .homepage-fade-in {
+    animation: fadeIn 0.8s ease-in;
+    opacity: 1;
+  }
+  
+
+
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 0.4s ease-in;
+}
+
+
+
+.home-first {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    height: 80vh;
+  }
+  
+  /* Text container */
+  .home-first-text {
+    max-width: 50%;
+  }
+  
+  .home-first-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  .home-first-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  /* Button styling */
+  .home-first-text button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: black;
+    color: white;
+  }
+  
+  .home-first-text button:hover {
+    background-color: #333;
+  }
+  
+  /* Image container */
+  .home-first-image {
+    max-width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .home-first-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .home-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(45deg, #EDFFA7 30%, #FFE5E5 90%);
+    width: 80%;
+    align-self: center;
+    border-radius: 15px;
+    margin-top: 100px;
+  }
+
+  .home-second-cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 50px 0;
+  }
+
+  .home-second-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    max-width: 200px;
+  }
+
+  .home-footer {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #EDFFA7 30%, #FFE5E5 90%);
+    color: black;
+    padding: 20px;
+  }
+
+  .home-footer input {
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 15px;
+    margin-right: 10px;
+  }
+
+  .home-footer button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: black;
+    color: white;
+  }
+
+  .home-footer button:hover {
+    background-color: #333;
+  }
+
+  .rights {
+    margin-top: 20px;
+    font-size: 10px;
+  }

@@ -1,0 +1,32 @@
+/* Container for the entire product collection */
+.collection {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Category name styling */
+  .category-name {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Product list container */
+  .product-collection-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0;
+  }
+  
+  /* Loading and error messages */
+  .loading,
+  .error {
+    font-size: 20px;
+    color: #666;
+    margin-top: 50px;
+  }

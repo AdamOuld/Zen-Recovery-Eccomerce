@@ -1,0 +1,26 @@
+.wishlist-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 0.4s ease-in;
+}
+
+.wishlist-header  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: larger
+}
+
+.wishlist-header h1 {
+    margin-right: 10px;
+}
+
+.wishlist-products {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    border: solid 1px;
+    background: linear-gradient(45deg, #EDFFA7 30%, #FFE5E5 90%);
+}
